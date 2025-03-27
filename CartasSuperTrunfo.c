@@ -75,7 +75,7 @@ int main(){
      // Chamando a função e armazenando o resultado
     densidade_populacional2 = (float) funcaoDivisao(populacao2, area_km2);
     printf ("Densidade Populacional: %.2f Hab/Km²\n", densidade_populacional2);
-    PIB_per_capita = (float) funcaoDivisao(PIB2, populacao2);
+    PIB_per_capita2 = (float) funcaoDivisao(PIB2, populacao2);
     printf ("PIB per Capita: %.2f reais\n", PIB_per_capita2);
 
     return 0;
